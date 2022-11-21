@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C38CED8292BCAD000557F04 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38CED7292BCAD000557F04 /* AccountView.swift */; };
 		0C54C8D429265460009E4336 /* Postepay_redesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54C8D329265460009E4336 /* Postepay_redesignApp.swift */; };
 		0C54C8D629265460009E4336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54C8D529265460009E4336 /* ContentView.swift */; };
 		0C54C8D829265461009E4336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C54C8D729265461009E4336 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C38CED7292BCAD000557F04 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		0C54C8D029265460009E4336 /* Postepay-redesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Postepay-redesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C54C8D329265460009E4336 /* Postepay_redesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postepay_redesignApp.swift; sourceTree = "<group>"; };
 		0C54C8D529265460009E4336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				0C54C8D329265460009E4336 /* Postepay_redesignApp.swift */,
 				0C54C8D529265460009E4336 /* ContentView.swift */,
+				0C38CED7292BCAD000557F04 /* AccountView.swift */,
 				0C54C8D729265461009E4336 /* Assets.xcassets */,
 				0C54C8D929265461009E4336 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C38CED8292BCAD000557F04 /* AccountView.swift in Sources */,
 				0C54C8D629265460009E4336 /* ContentView.swift in Sources */,
 				0C54C8D429265460009E4336 /* Postepay_redesignApp.swift in Sources */,
 			);

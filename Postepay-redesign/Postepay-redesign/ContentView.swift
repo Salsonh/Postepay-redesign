@@ -20,14 +20,14 @@ struct ContentView: View {
                             .foregroundColor(Color.secondary)
                             .multilineTextAlignment(.leading)
                             .lineLimit(0)
-                            
+                        
                         
                         Text(showData ? "2,50€" : "*****")
                         
                     }
                     .padding(.vertical,-10)
-
-                  Spacer()
+                    
+                    Spacer()
                     
                     Button("Mostra") {
                         showData.toggle()
@@ -35,36 +35,44 @@ struct ContentView: View {
                         
                     }
                     .foregroundColor(Color.secondary)
-
+                    
                     .padding(0.0)
                 }
                 .padding(.horizontal,40)
-
-              
+                
+                
                 
                 Image("Carta")
-                Spacer()
                 
-                ZStack{
-                    Rectangle()
-                        .frame(height: 50)
-                        .frame(width: 300)
-                        .foregroundColor(.gray)
-                    .cornerRadius(20)
-                    HStack{
-                        Text ("Dettaglio movimenti")
-                            
+                
+                HStack{
+                    Text ("Dettaglio movimenti")
+                        .foregroundColor(.primary)
+                        .background(
+                            RoundedRectangle(cornerRadius: 20)
+                                .stroke(Color.black)
+                                .frame(height: 50)
+                                .frame(width: 300)
+                                
+                        )
+                        .padding()
+                }
+                .padding()
+                
+                Image("p2p")
+                Divider()
+                    .padding(.vertical,56.0)
+                
+                ScrollView(.horizontal) {
+                    HStack {
+                        Image("zingarata1")
+                        Image("zingarata2")
+                        Image("zingarata3")
                         
                     }
-                    .padding(15)
-                }
-                Spacer()
-                Spacer()
-                Spacer()
-                Spacer()
-                
-                
-                    
+                   
+                 }
+                //.padding(.bottom,40)
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
