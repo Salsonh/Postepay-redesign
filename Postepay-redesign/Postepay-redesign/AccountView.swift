@@ -18,7 +18,7 @@ struct TitleView: View {
         }
         .foregroundColor(Color.blue)
         Divider()
-
+        
     }
     
 }
@@ -37,54 +37,86 @@ struct AccountView: View {
                         .multilineTextAlignment(.center)
                         .font(.system(size: 30))
                     Divider()
+                    
                     VStack{
                         Section{
                             List{
-                                Label("Profilo", systemImage:"person.circle.fill")
+                                HStack {
+                                    Image(systemName: "person.circle.fill")
+                                        .font(.system(size: 32))
+                                        .foregroundColor(.gray)
+                                    Text("Profilo")
+                                }
+                                HStack {
+                                    Image(systemName: "wallet.pass.fill")
+                                        .font(.system(size: 31))
+                                        .foregroundColor(.gray)
+                                    Text("I miei ticket")
+                                    
+                                }
                                 
-                                Label("I miei ticket", systemImage:"wallet.pass.fill" )
-                                Label("Impostazioni App", systemImage:"gear" )
+                                HStack{
+                                    Image(systemName: "gear")
+                                        .font(.system(size: 30))
+                                        .foregroundColor(.gray)
+                                    Text("Impostazioni App")
+                                        .foregroundColor(Color.black)
+                                }
+                                HStack{
+                                    Image(systemName: "phone")
+                                        .font(.system(size: 32))
+                                        .foregroundColor(.gray)
+                                    Text("Assistenza")
+                                }
                                 
-                                Label("Assistenza", systemImage:"phone" )
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                            }
-                            .foregroundColor(.black)
-                            .listStyle(.plain)
+                            }.scrollDisabled(true)
+                            
+                                .foregroundColor(.black)
+                                .listStyle(.plain)
+                            
                         }
                         Section{
                             Text("ALTRE APP DI POSTE")
-                                .fontWeight(.bold)
+                                .fontWeight(.semibold)
+                            Spacer()
+
                             VStack{
                                 HStack{
                                     Image("BP ICON")
+                                        .padding(.horizontal,5)
+                                        .padding(.leading)
+                                    
                                     Text("BancoPosta")
-
+                                        .padding(.horizontal,-25)
+                                        
+                                    Spacer()
+                                    
                                 }
-
+                                
                             }
                             VStack{
                                 HStack{
                                     Image("PT ICON")
+                                        .padding(.horizontal,5)
+                                        .padding(.leading)
                                     Text("Ufficio Postale")
-
+                                        .padding(.horizontal,-39)
+                                    
+                                    Spacer()
+                                    
                                 }
-
+                                
                             }
                             Divider()
                             VStack{
                                 Text("Logout")
+                                    .fontWeight(.bold)
                                     .foregroundColor(Color.red)
-                                    
+                                
                             }
                         }
                     }
-                    Spacer(minLength: 90)
+                    Spacer(minLength: 10)
                     
                 }
                 .navigationBarTitleDisplayMode(.inline)

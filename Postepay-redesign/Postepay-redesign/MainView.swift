@@ -59,21 +59,22 @@ struct MainView: View {
                         .padding()
                 }
                 .padding()
-                
-                Image("p2p")
+                Spacer().frame(height:19)
+                Image("zingaropoli")
+                    .padding(.vertical,20.0)
                 Divider()
-                    .padding(.vertical,56.0)
                 
                 ScrollView(.horizontal) {
+                    
                     HStack {
+                        
                         Image("zingarata1")
                         Image("zingarata2")
                         Image("zingarata3")
-                        
                     }
                    
                  }
-                //.padding(.bottom,40)
+                .padding(.bottom,-20)
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -86,6 +87,7 @@ struct MainView: View {
                 }
             }
         }
+        
     }
 }
 
