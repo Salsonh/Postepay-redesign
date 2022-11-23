@@ -67,10 +67,18 @@ struct MainView: View {
                 ScrollView(.horizontal) {
                     
                     HStack {
+                            Cards(Name: "RICARICA", Name2: "Sim")
+                                
                         
-                        Image("zingarata1")
-                        Image("zingarata2")
-                        Image("zingarata3")
+                    
+                            Cards(Name: "PAGA", Name2: "Pagamenti")
+                        
+                        
+                            Cards(Name: "G2G", Name2: "Invia giga")
+                        
+                        
+                            Cards(Name: "INQUADRA", Name2: "Codice QR")
+                        
                     }
                    
                  }

@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @State private var showData: Bool = false
-    
+        
     var body: some View {
         TabView{
             MainView()

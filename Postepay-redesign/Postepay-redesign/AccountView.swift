@@ -49,7 +49,7 @@ struct AccountView: View {
                                 }
                                 HStack {
                                     Image(systemName: "wallet.pass.fill")
-                                        .font(.system(size: 31))
+                                        .font(.system(size: 30))
                                         .foregroundColor(.gray)
                                     Text("I miei ticket")
                                     
@@ -57,7 +57,7 @@ struct AccountView: View {
                                 
                                 HStack{
                                     Image(systemName: "gear")
-                                        .font(.system(size: 30))
+                                        .font(.system(size: 31))
                                         .foregroundColor(.gray)
                                     Text("Impostazioni App")
                                         .foregroundColor(Color.black)
@@ -78,8 +78,7 @@ struct AccountView: View {
                         Section{
                             Text("ALTRE APP DI POSTE")
                                 .fontWeight(.semibold)
-                            Spacer()
-
+                                .padding()
                             VStack{
                                 HStack{
                                     Image("BP ICON")

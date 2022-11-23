@@ -17,6 +17,7 @@
 		0C54C8E529265461009E4336 /* Postepay_redesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54C8E429265461009E4336 /* Postepay_redesignTests.swift */; };
 		0C54C8EF29265461009E4336 /* Postepay_redesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54C8EE29265461009E4336 /* Postepay_redesignUITests.swift */; };
 		0C54C8F129265461009E4336 /* Postepay_redesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54C8F029265461009E4336 /* Postepay_redesignUITestsLaunchTests.swift */; };
+		0CF3F8E2292E61CC003031CA /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF3F8E1292E61CC003031CA /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		0C54C8EA29265461009E4336 /* Postepay-redesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Postepay-redesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C54C8EE29265461009E4336 /* Postepay_redesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postepay_redesignUITests.swift; sourceTree = "<group>"; };
 		0C54C8F029265461009E4336 /* Postepay_redesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postepay_redesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CF3F8E1292E61CC003031CA /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0C54C8D329265460009E4336 /* Postepay_redesignApp.swift */,
 				0C54C8D529265460009E4336 /* ContentView.swift */,
 				0C38CED9292BCC3D00557F04 /* MainView.swift */,
+				0CF3F8E1292E61CC003031CA /* Cards.swift */,
 				0C38CED7292BCAD000557F04 /* AccountView.swift */,
 				0C38CEDB292BF4AF00557F04 /* UserView.swift */,
 				0C54C8D729265461009E4336 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 				0C38CED8292BCAD000557F04 /* AccountView.swift in Sources */,
 				0C38CEDA292BCC3D00557F04 /* MainView.swift in Sources */,
 				0C38CEDC292BF4AF00557F04 /* UserView.swift in Sources */,
+				0CF3F8E2292E61CC003031CA /* Cards.swift in Sources */,
 				0C54C8D629265460009E4336 /* ContentView.swift in Sources */,
 				0C54C8D429265460009E4336 /* Postepay_redesignApp.swift in Sources */,
 			);
