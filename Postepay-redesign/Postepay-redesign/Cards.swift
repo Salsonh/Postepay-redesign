@@ -13,16 +13,17 @@ struct Cards: View {
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 20)
-                .stroke(.gray)
+                .stroke(.black)
                 .shadow(radius: 3)
                 .frame(width: 150, height: 80, alignment: .leading)
                 .foregroundColor(.clear)
             
             VStack(alignment: .leading, spacing: 6){
                 Text(Name)
-                    .fontWeight(.bold)
+                    .fontWeight(.heavy)
                     .foregroundColor(Color.blue)
                 Text(Name2)
+                    .fontWeight(.regular)
                     
                 
             }

@@ -78,7 +78,6 @@ struct AccountView: View {
                         Section{
                             Text("ALTRE APP DI POSTE")
                                 .fontWeight(.semibold)
-                                .padding()
                             VStack{
                                 HStack{
                                     Image("BP ICON")

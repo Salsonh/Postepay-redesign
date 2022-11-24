@@ -66,10 +66,9 @@ struct MainView: View {
                 
                 ScrollView(.horizontal) {
                     
-                    HStack {
+                    HStack(spacing:10){
                             Cards(Name: "RICARICA", Name2: "Sim")
                                 
-                        
                     
                             Cards(Name: "PAGA", Name2: "Pagamenti")
                         
